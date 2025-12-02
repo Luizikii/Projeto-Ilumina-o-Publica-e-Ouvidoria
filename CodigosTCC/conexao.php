@@ -12,10 +12,10 @@ if (isset($GLOBALS['conn']) && $GLOBALS['conn'] instanceof mysqli) {
 }
 
 // Credenciais
-$host    = 'localhost'; // 'p:' ativa conexão persistente
-$usuario = 'u740442472_administrador2';
-$senha   = '!Srh153245';
-$banco   = 'u740442472_ouvidoria';
+$host    = ''; // 'p:' ativa conexão persistente
+$usuario = '';
+$senha   = '';
+$banco   = '';
 
 // Conecta
 $conn = new mysqli($host, $usuario, $senha, $banco);
